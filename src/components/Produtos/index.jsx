@@ -11,7 +11,6 @@ const Produtos = () => {
           <Produto
             key={produto.id}
             {...produto}
-            adicionarProduto={adicionarProduto}
           />
         ))}
       </div>
